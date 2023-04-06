@@ -19,6 +19,7 @@ Mongo Shell ekranında veritabanı oluşturuldu.cmd ekranında aşağıdaki kodl
     "phone": "0111-111-11-11",
     "city": "İstanbul"
   })
+ Database,Collections ve fields'lerin oluştuğuna MongoDBCompass editöründende bakılabilir
 
 MongoDb veritabanına gerekleştirilen CRUD işlemleri:
 ![mongodbCRUD](https://user-images.githubusercontent.com/104023688/230297352-4cd91483-0c12-4076-ad7f-29a5d93b9c06.JPG)
