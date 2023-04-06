@@ -4,8 +4,11 @@ MongoDb ile WebAPI de gerekli konfigurasyonlar yapılarak CRUD işlemleri gerçe
 Mongo Shell ekranında veritabanı oluşturuldu.cmd ekranında aşağıdaki kodları yazarak :
 
 ->mongo                         //mongoShell ekranına geçiş
+
 ->use eStoreDB                  //eStoreDB isminde veritabanı oluşturma
+
 ->db.createCollection("users")  //users collectionı(tablosu) oluşturma
+
 ->db.users.insertOne(           //users a kayıt ekleme
   {
     "userNo": 203648,
